@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bea-installer>
+	<input-fields>
+		<data-value name="BEAHOME" value="/home/oracle/Oracle/Middleware/" />
+		<data-value name="WLS_INSTALL_DIR" value="/home/oracle/Oracle/Middleware/wlserver10.3" />
+		<data-value name="INSTALL_NODE_MANAGER_SERVICE" value="yes" />
+		<data-value name="NODEMGR_PORT" value="5555" />
+	</input-fields>
+</bea-installer>
