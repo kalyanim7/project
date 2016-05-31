@@ -1,8 +1,4 @@
-echo "Enter the path of deployApp.py"
-read dApp
-echo "Enter the path of the EmpApp.ear"
-read app
-java weblogic.WLST dApp app
+java weblogic.WLST /root/Desktop/deployApp.py /root/Desktop/EmpApp.ear
 
 cd /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/bin
 

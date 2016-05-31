@@ -1,6 +1,4 @@
-echo "Enter the path of createDomain.py file"
-read createDomain
-java weblogic.WLST createDomain $JAVA_HOME
+java weblogic.WLST /root/Desktop/createDomain.py /root/Desktop/jdk1.8.0_91 
 mkdir -p /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/AdminServer/logs /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/AdminServer/Security
 mkdir -p /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/TPMS1/logs /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/AdminServer/Security
 mkdir -p /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/TPMS2/logs /home/oracle/Oracle/Middleware/user_projects/domains/TPDomain/AdminServer/Security
