@@ -1,13 +1,3 @@
-# This is an Offline WLST script to create a WLS 10.3.4 (Oracle Weblogic Server 11gR1) Domain
-#
-# Domain consists of:
-# 1. Admin Server
-# 2. Two Managed Servers for a Cluster
-# 3. One Standalone Managed Server
-# 4. A Cluster for Two Managed Server
-# 5. One Machine which all Managed Servers will be configured
-# Read a domain template
-# Change the path to wls.jar according to your setup
 import sys
 
 print('Reading Template - /home/oracle/Oracle/Middleware/wlserver10.3/common/templates/domains/wls.jar')
@@ -37,7 +27,7 @@ print('Setting StartUp Options')
 setOption('CreateStartMenu', 'false')
 setOption('ServerStartMode', 'prod')
 
-# Setting the JDK home. Change the path to your installed JDK for weblogic
+# Setting the JDK home. 
 setOption('JavaHome',sys.argv[1])
 setOption('OverwriteDomain', 'true')
 
